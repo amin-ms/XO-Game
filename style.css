@@ -1,0 +1,27 @@
+* {
+    background-color: #e1e1e1;
+}
+
+h1{
+    text-align: center;
+}
+
+.game_board {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    background-color: antiquewhite;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
+.game_block{
+    background-color: aqua;
+    margin: 10px;
+    border-radius: 10%;
+    position: relative;
+    font-size: 10px;
+    text-align: center;
+}
+
